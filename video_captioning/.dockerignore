@@ -1,0 +1,25 @@
+# .env is intentionally NOT excluded: Track 2's grading harness has no
+# fixed env-var contract to inject per-team keys (unlike Track 1's
+# FIREWORKS_API_KEY), so this container loads its own .env at startup
+# (see config.py's load_dotenv() call) to have credentials ready with no
+# external `docker run -e` needed. This means your API keys become part of
+# the public image -- see README.md "Secrets" section for how to keep that
+# safe (dedicated low-privilege key, spend caps, rotation).
+
+.venv/
+.venv_light/
+__pycache__/
+*.pyc
+*.pyo
+
+.git
+.gitignore
+
+outputs/
+output/
+inputs/
+input/
+
+*.log
+.pytest_cache/
+.DS_Store

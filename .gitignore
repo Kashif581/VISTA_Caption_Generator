@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Models
+*.pt
+*.bin
+*.ckpt
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Outputs
+outputs/
+
+# VS Code
+.vscode/
+
+# Python
+.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+# CPU-only torch wheels -- avoids multi-GB CUDA builds we don't need
+# (grading environment has no guaranteed GPU).
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# ---- Core ----
+numpy<2
+opencv-python-headless
+Pillow
+requests
+python-dotenv
+
+# ---- Fireworks (OpenAI-compatible client) ----
+openai>=1.30.0
+
+# ---- Groq (transcription, primary; local faster-whisper is the fallback) ----
+groq>=0.9.0
+
+# ---- FastAPI demo wrapper ----
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.0
+python-multipart>=0.0.9
+
+# ---- Audio pipeline ----
+faster-whisper>=1.0.1
+demucs>=4.0.1
+# transformers>=5 requires torch>=2.4 (silently disables the torch backend
+# otherwise, breaking the AST classifier) -- keep these two in lockstep.
+torch>=2.4,<2.6
+torchaudio>=2.4,<2.6
+transformers>=4.40
