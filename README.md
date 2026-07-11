@@ -69,6 +69,8 @@ flowchart TD
 Every describe() / combine() / style() call goes through the
 [backend fallback chain](#backend-fallback-chain) below — the diagram above
 shows the pipeline shape, not which backend answered.
+<img width="1405" height="559" alt="Workflow" src="https://github.com/user-attachments/assets/ec695398-5b74-4643-9eaf-be3cc3426cbf" />
+
 
 ## Backend fallback chain
 
