@@ -31,7 +31,7 @@ export function Hero({
 
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-violet-400">
-          AI Caption Studio
+          VISTA
         </p>
         <h1 className="mb-3 text-4xl font-bold tracking-tight text-white md:text-5xl">
           Vista
