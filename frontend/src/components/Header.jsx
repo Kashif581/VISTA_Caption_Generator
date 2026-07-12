@@ -10,7 +10,7 @@ export function Header() {
             <Clapperboard className="size-5 text-violet-400" />
           </div>
           <span className="text-lg font-semibold tracking-tight text-white">
-            Vista
+            VISTA
           </span>
         </div>
 
