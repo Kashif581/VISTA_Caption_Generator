@@ -9,7 +9,7 @@ export function Footer() {
             <div className="flex size-8 items-center justify-center rounded-lg bg-violet-600/20">
               <Clapperboard className="size-4 text-violet-400" />
             </div>
-            <span className="font-semibold text-white">ClipTone</span>
+            <span className="font-semibold text-white">Vista</span>
           </div>
 
           <p className="text-center text-sm text-zinc-500">
