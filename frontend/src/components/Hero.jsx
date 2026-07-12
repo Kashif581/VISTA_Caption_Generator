@@ -31,10 +31,10 @@ export function Hero({
 
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-violet-400">
-          VISTA
+          AI Caption Studio
         </p>
         <h1 className="mb-3 text-4xl font-bold tracking-tight text-white md:text-5xl">
-          Vista
+          VISTA
         </h1>
         <p className="mb-8 text-base text-zinc-400 md:text-lg">
           Compare four caption tones across multiple clips — formal, sarcastic,
