@@ -386,3 +386,12 @@ be exclusively short single-take clips, lowering MAX_KEYFRAMES trims cost
 without losing coverage; if it includes longer multi-scene footage, this is
 what makes captions accurate across the whole clip instead of just whichever
 frame happened to dominate a single crowded prompt.
+
+
+## Demo
+
+
+
+https://github.com/user-attachments/assets/836733ab-bf76-49ae-9f13-a3f1da0b5d5a
+
+
