@@ -36,6 +36,12 @@ see pipeline/captioner.py::_backend_chain().
 
 ---
 
+## Demo
+
+
+
+https://github.com/user-attachments/assets/836733ab-bf76-49ae-9f13-a3f1da0b5d5a
+
 ## Architecture
 
 mermaid
@@ -388,10 +394,6 @@ what makes captions accurate across the whole clip instead of just whichever
 frame happened to dominate a single crowded prompt.
 
 
-## Demo
 
-
-
-https://github.com/user-attachments/assets/836733ab-bf76-49ae-9f13-a3f1da0b5d5a
 
 
