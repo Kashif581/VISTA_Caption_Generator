@@ -42,6 +42,12 @@ see pipeline/captioner.py::_backend_chain().
 
 https://github.com/user-attachments/assets/836733ab-bf76-49ae-9f13-a3f1da0b5d5a
 
+
+## Display
+<img width="834" height="837" alt="view" src="https://github.com/user-attachments/assets/4ac22d32-e65a-413e-986e-eb6c5140efaf" />
+
+
+
 ## Architecture
 
 mermaid
