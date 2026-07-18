@@ -44,6 +44,8 @@ https://github.com/user-attachments/assets/836733ab-bf76-49ae-9f13-a3f1da0b5d5a
 
 
 ## Display
+<img width="1000" height="1000" alt="view2" src="https://github.com/user-attachments/assets/d4705b51-db84-4f95-afcf-22c706bb6431" />
+
 <img width="1000" height="1000" alt="view" src="https://github.com/user-attachments/assets/4ac22d32-e65a-413e-986e-eb6c5140efaf" />
 
 
